@@ -123,8 +123,6 @@ export default function HomePage() {
       <header>
         <h1> Welcome to the Metacrafters ATM!</h1>
         </header>
-      <img src ="img.jpeg" alt="Metamask"/>
-      
       {initUser()}
       <style jsx>{`
         .container {
@@ -133,26 +131,26 @@ export default function HomePage() {
           background-color:pink;
           font-family:arial;
           height:100vh;
-          padding:'20px';
+          padding:20px;
         }
           .header{
-          marginbottom:'20px';}
+          marginbottom:20px;}
 
           .img{
-          maxwidth: '50px';
-          marginbottom:'5px';}
+          maxwidth: 50px;
+          marginbottom:5px;}
 
           header h1{
           color:Violet;}
 
           .connectAccount{
-           padding: '10px 20px',
-           margin: '10px',
-           backgroundColor: 'red',
-           color: 'white',
-           border: 'none',
-           borderRadius: '5px',
-           cursor: 'pointer',
+           padding: 10px 20px,
+           margin: 10px,
+           backgroundColor: red,
+           color: white,
+           border: none,
+           borderRadius: 5px,
+           cursor: pointer,
           }
       `}
       </style>
